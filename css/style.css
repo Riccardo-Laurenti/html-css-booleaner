@@ -66,20 +66,21 @@ table {
 }
 
 
-thead{
+th {
     background: RGB(0,187,229); 
     padding: 0px;
     color: white;
+    text-align: left;
   } 
 
 
 tr {
     text-align: left;
+    background: RGB(174,213,226);
   } 
   
 
  tr td {
-    background: RGB(174,213,226);
     width: 35px;
   }
 
