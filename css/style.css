@@ -11,12 +11,16 @@ header {
     line-height:130px;
 }
 
+.container {
+  max-width: 1100px;
+  margin: 0px auto;
+}
+
 
 #logo {
     background-repeat: no-repeat;
     width: auto;
     height: 50px;
-    margin-left: 21%;
 }
 
 
@@ -59,63 +63,67 @@ ul {
     list-style-position: inside;
 }
 
+/*Table*/
 
 table {
-    width: 95%; 
-    border-collapse: collapse; 
+  border-collapse: collapse;
 }
 
 
-th {
-    background: RGB(0,187,229); 
-    padding: 0px;
-    color: white;
+th{
     text-align: left;
-  } 
-
+    background: RGB(0,187,229); 
+}
 
 tr {
-    text-align: left;
     background: RGB(174,213,226);
-  } 
-  
+}
 
- tr td {
-    width: 35px;
-  }
 
+.w-50 {
+  width: 50%;
+}
 
   .white-cell{
     background-color: white;;
   }
 
 
+/*FOOTER*/
  footer > h3 {
     color: grey;
  }
 
-
-  .image-text{
-    position: relative;
-  }
-
-
-  .image-text img {
-    width: 250px;
-    height: 180px;
+ .article {
+  width: 300px;
+  height: 210px;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 10px;
  }
-  
- 
-  .top-left {
-    position: absolute;
-    top: 0px;
-    left: 10px;
-    color: white;
-  }
+
+
+#image-monitor {
+  background-image: url('../img/monitor.jpg');
+}
+
+
+
+#image-graph {
+  background-image: url('../img/graph.jpg');
+}
+
+
+
+ .related-article-text {
+  color: white;
+  padding: 10px;
+  margin: 0;
+ }
 
 
 .container {
     max-width: 1100px;
-    margin: 30px auto;
+    margin: 0px auto;
 }
 
