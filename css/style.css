@@ -21,17 +21,21 @@ main h1 {
     margin-bottom: 0;
 }
 
+
 #article p {
     margin-top: 0;
 }
 
+
 .description-azure {
-    color: blue;
+    color: RGB(0,187,229); 
 }
+
 
 article p {
     font-size: 12px;
 }
+
 
 .p-description-photo {
   margin-top: 0px;
@@ -45,6 +49,7 @@ p > .yellow {
 }
 
 
+
 ul {
     padding: 0;
     list-style-position: inside;
@@ -56,37 +61,46 @@ table {
     border-collapse: collapse; 
 }
 
+
 thead{
     background: RGB(0,187,229); 
     padding: 0px;
     color: white;
   } 
 
+
 tr {
     text-align: left;
   } 
   
+
  tr td {
     background: RGB(174,213,226);
     width: 35px;
   }
 
+
   .white-cell{
     background-color: white;;
   }
 
+
  footer > h3 {
     color: grey;
  }
+
+
   .image-text{
     position: relative;
   }
+
 
   .image-text img {
     width: 250px;
     height: 180px;
  }
   
+ 
   .top-left {
     position: absolute;
     top: 0px;
